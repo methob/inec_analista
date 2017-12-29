@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Inec-Desafio-Analista</string>
+    <string name="empty_resource">Nenhuma informação encontrada.</string>
+    <string name="txt_search">Pesquisar</string>
+    <string name="hint_write_here">Digite aqui.</string>
+    <string name="txt_username">Nome do usuário</string>
+    <string name="txt_empty_repositories">Nenhum repositório encontrado.</string>
+    <string name="err_txt_empty_username">Nome do usuário não pode ser vazio.</string>
+    <string name="err_txt_failure">Falha</string>
+    <string name="txt_no_contributors">Este repositório não tem contribuidores.</string>
+    <string name="txt_programming_language">Linguagens de Programação</string>
+    <string name="txt_contributors">Contribuidores</string>
+</resources>

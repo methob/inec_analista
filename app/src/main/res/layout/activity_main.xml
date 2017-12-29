@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.inec.com.inec_desafio_analista.activity.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/topbar"
+        android:background="@android:color/holo_blue_light"
+        app:titleTextColor="@android:color/white"
+        app:title="Desafio INEP">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_hint_user_name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity=""
+        android:text="@string/txt_username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edt_user_name"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="@string/hint_write_here"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_search_user"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/holo_blue_light"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txt_search" />
+
+    </LinearLayout>
+
+</RelativeLayout>
